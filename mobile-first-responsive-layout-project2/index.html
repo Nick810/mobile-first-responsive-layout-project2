@@ -1,93 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>Techdegree Project 2</title>
   <link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-  
+  <!--  Main Head -->
   <div class="wrapper">
     <header class="main-header">
       <div class="header-container clearfix">
-      <div class="clearfix">
         <h1 class="name">NICK B.</h1>
         <nav>
           <ul class="header-nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="#skills">SKILLS</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
           </ul>
         </nav>
       </div>
-      </div>
+      
       <div class="container banner clearfix">
-      <img class="profilePicture" src="images/responsive-layout-profile.png" alt="Profile Picture">
-      <p class="bannerSub">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        <img alt="Profile Picture" class="profilePicture" src="images/responsive-layout-profile.png">
+        <p class="bannerSub">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
       </div>
+      
     </header>
-
+    <!-- Portfolio -->
     <main>
+      
       <div class="container" id="main-wrap">
         <h2 class="mainTitle" id="portfolio">PORTFOLIO</h2>
         <div class="first col">
-          <img class="mainImages" src="images/portfolio-1.png" alt="Marketing Page Picture">
+          <img alt="Marketing Page Picture" class="mainImages" src="images/portfolio-1.png">
           <h3 class="columnTitle">Marketing Page</h3>
           <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
         </div>
+        
         <div class="second col">
-          <img class="mainImages" src="images/portfolio-2.png" alt="Search Page Picture">
+          <img alt="Search Page Picture" class="mainImages" src="images/portfolio-2.png">
           <h3 class="columnTitle">Search Page</h3>
           <p>This project searches through a specific database to find information that the user is trying to look up.</p>
         </div>
+        
         <div class="third col">
-          <img class="mainImages" src="images/portfolio-3.png" alt="Travel App Picture">
+          <img alt="Travel App Picture" class="mainImages" src="images/portfolio-3.png">
           <h3 class="columnTitle">Travel App</h3>
           <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
         </div>
+        
         <div class="fourth col">
-          <img class="mainImages" src="images/portfolio-4.png" alt="Map of Favorite Spots Picture">
+          <img alt="Map of Favorite Spots Picture" class="mainImages" src="images/portfolio-4.png">
           <h3 class="columnTitle">Map of Favorite Spots</h3>
           <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
         </div>
+        
         <div class="fifth col">
-          <img class="mainImages" src="images/portfolio-5.png" alt="Photo Gallery Picture">
+          <img alt="Photo Gallery Picture" class="mainImages" src="images/portfolio-5.png">
           <h3 class="columnTitle">Photo Gallery</h3>
           <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
         </div>
+        
         <div class="sixth col">
-          <img class="mainImages" src="images/portfolio-6.png" alt="Calculator Picture">
+          <img alt="Calculator Picture" class="mainImages" src="images/portfolio-6.png">
           <h3 class="columnTitle">Calculator</h3>
           <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
         </div>
+        <!--  Skill -->
         <div class="skill-col" id="skills">
-          <a href="https://www.w3schools.com/whatis/"><img src="images/html5.png" class="skillsImages" alt="HTML5, JS and CSS Logos"></a>
+          <a href="https://www.w3schools.com/whatis/"><img alt="HTML5, JS and CSS Logos" class="skillsImages" src="images/html5.png"></a>
           <h3 class="heading-skills">Skills</h3>
         </div>
+        
       </div>
+      <!--  Contact -->
       <div class="container contact" id="contact">
         <h2 class="heading">CONTACT</h2>
         <p class="contact-subheader">if you're interested in chatting or want more information about what I've been working, I'd love to hear from you!</p>
         <p class="cInfo">Phone&nbsp;&nbsp;<span class="contactInfo"><a href="tel:111-555-1234">+1 (111) 555-1234</a></span></p>
         <p class="cInfo">Email&nbsp;&nbsp;<span class="contactInfo"><a href="mailto:email@yoursite.com">email@yoursite.com</a></span></p>
       </div>
+      
     </main>
   </div>
-  
+  <!--  Footer -->
   <footer class="main-footer clearfix">
-      <h4 class="footerName" id="footerName">NICK B.</h4>
-      <nav>
-        <ul class="footerNav">
-          <li><a href="#top" id="backToTop">BACK TO TOP</a></li>
-          <li><a href="#" class="navLists">HOME</a></li>
-          <li><a href="#portfolio" class="navLists">PORTFOLIO</a></li>
-          <li><a href="#skills" class="navLists">SKILLS</a></li>
-          <li><a href="#contact" class="navLists">CONTACT</a></li>
-        </ul>
-      </nav>
+    <h4 class="footerName" id="footerName">NICK B.</h4>
+    <nav>
+      <ul class="footerNav">
+        <li>
+          <a href="#" id="backToTop">BACK TO TOP</a>
+        </li>
+        <li>
+          <a class="navLists" href="#">HOME</a>
+        </li>
+        <li>
+          <a class="navLists" href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li>
+          <a class="navLists" href="#skills">SKILLS</a>
+        </li>
+        <li>
+          <a class="navLists" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
   </footer>
-  
 </body>
 </html>
